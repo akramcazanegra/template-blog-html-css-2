@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>skip ad</title>
+    <link rel="stylesheet" href="cssfile.css">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+	</head>
+<body style="height: 2000px;">
+	
+
+	<nav class="nav" >
+		<i class="uil uil-bars navOpenBtn"></i>
+		<a href="htmlfile.html" class="logo">LAFASSO</a>
+  
+		<ul class="nav-links">
+		  <i class="uil uil-times navCloseBtn"></i>
+		  <li><a class="active" href="#home"  style="font-size: 20px;">Home</a></li>
+		  <li><a href="#new-articles" style="font-size: 20px;">New Articles</a></li>
+		  <li><a href="#cool-articles"  style="font-size: 20px;">Cool Articles</a></li>
+		  <li><a href="#Sport Blog"  style="font-size: 20px;">Sport Blog </a></li>
+		  <li><a href="#Contact"  style="font-size: 20px;">Contact Us</a></li>
+		</ul>
+  
+		<i class="uil uil-search search-icon" id="searchIcon"></i>
+		<div class="search-box">
+		  <i class="uil uil-search search-icon"></i>
+		  <input type="text" placeholder="Search here..." />
+		</div>
+	  </nav>
+
+
+
+	
+    <div class="slider" id="home">
+		<!-- fade css -->
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>CodeCraft: Crafting the Web</h1>
+				<p>Web Devoloper<br>Empowering Innovation: Crafting the Web of Tomorrow, Today</p>
+			</div>
+			<img src="AA.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>ShopVue: Empowering Your E-commerce Journey</h1>
+				<p>E-commerce<br>Digital Market Hub: Navigate, Sell, Succeed</p>
+			</div>
+			<img src="BB.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>Lifestyle Awards</h1>
+				<p>LifeStyle<br>Luxury Lifestyle Awards | Celebrating Excellence in Luxury</p>
+			</div>
+			<img src="DD.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>Victory in Motion: Unleash Your Sporting Potential</h1>
+				<p>Sport<br>GameOn: Unleash Your Athletic Potential</p>
+			</div>
+			<img src="EE.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>Self</h1>
+				<p>Personal<br>Discovering Self: Journey to Inner Fulfillment</p>
+			</div>
+			<img src="FF.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<!-- /fade css -->
+		
+		<!-- onclick js -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+		<!-- /onclick js -->
+	</div>
+
+
+	<!-- cool Articles -->
+	
+	  <div class="band" id="cool-articles">
+		<h1>Cool Articles</h1>
+		<div class="item-1">
+			
+		  <a href="https://design.tutsplus.com/articles/international-artist-feature-malaysia--cms-26852" class="card">
+			<div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg);"></div>
+			<article>
+			  <h1>International Artist Feature: Malaysia</h1>
+			  <p>Malaysia: Where cultural richness, natural wonders, and warm hospitality converge, offering unforgettable experiences and cherished memories for all who visit</p>
+			  <span>Mary Winkler</span>
+			</article>
+		  </a>
+		</div>
+		<div class="item-2">
+		  <a href="https://webdesign.tutsplus.com/articles/how-to-conduct-remote-usability-testing--cms-27045" class="card">
+			<div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/users-2.png);"></div>
+			<article>
+			  <h1>How to Conduct Remote Usability Testing</h1>
+			  <p>Remote Conduct: Navigating Virtual Terrain, Cultivating Collaboration, and Fostering Connectivity in the Digital Landscape for Enhanced Productivity and Seamless Communication.
+				Remote Connection: Bridging Distances, Building Collaboration
+			  </p>
+			  <span>Harry Brignull</span>
+			</article>
+		  </a>
+		</div>
+		<div class="item-3">
+		  <a href="https://design.tutsplus.com/articles/envato-tuts-community-challenge-created-by-you-july-edition--cms-26724" class="card">
+			<div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-5.jpg);"></div>
+			<article>
+			  <h1>Created by You, July Edition</h1>
+			  <p>Welcome to our monthly feature of fantastic tutorial results created by you, the Envato Tuts+ community!
+				Remote Rendezvous: Orchestrating Connections, Crafting Collaboration, and Redefining Workspaces for Seamless Productivity in the Digital Era. </p>
+			  <span>Melody Nieves</span>
+			</article>
+		  </a>
+		</div>
+		<div class="item-4">
+		  <a href="https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826" class="card">
+			<div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png);"></div>
+			<article>
+			  <h1>How to Code a Scrolling “Alien Lander” Website</h1>
+			  <p>We’ll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien Lander” making its way to touch down.
+				Nihongo no tabi: Nihon no kotoba to bunka o tanoshimi, rikai suru tame n
+			  </p>
+			  <span>Kezz Bracey</span>
+			</article>
+		  </a>
+		</div>
+		<div class="item-5">
+		  <a href="https://design.tutsplus.com/tutorials/stranger-things-inspired-text-effect--cms-27139" class="card">
+			<div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/strange.jpg);"></div>
+			<article>
+			  <h1>How to Create a “Stranger Things” Text Effect in Adobe Photoshop</h1>
+			  <p>PixelCraft: Harnessing Imagination, Manipulating Pixels, Crafting Masterpieces, and Unleashing Creativity in the Digital Realm of Photoshop Mastery</p>
+			  <span>Rose</span>
+			</article>
+		  </a>
+		</div>
+		<div class="item-6">
+		  <a href="https://photography.tutsplus.com/articles/5-inspirational-business-portraits-and-how-to-make-your-own--cms-27338" class="card">
+			<div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flor.jpg);"></div>
+			<article>
+			  <h1>5 Inspirational Business Portraits and How to Make Your Own</h1>
+				<p>Enterprise Edge: Navigating Markets, Crafting Strategies, and Maximizing Opportunities for Business Success in a Dynamic Economic Landscape.</p>
+			  <span>Marie Gardiner</span>
+			</article>
+		  </a>
+		</div>
+		<div class="item-7">
+		  <a href="https://webdesign.tutsplus.com/articles/notes-from-behind-the-firewall-the-state-of-web-design-in-china--cms-22281" class="card">
+			<div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/china.png);"></div>
+			<article>
+			  <h1>Notes From Behind the Firewall: The State of Web Design in China</h1>
+			  <p>日本語の旅: 日本の言葉と文化を楽しみ、理解するためのガイド" (Nihongo no tabi: Nihon no kotoba to bunka o tanoshimi, rikai suru tame no gaido)</p>
+			  <span>Kendra Schaefer</span>
+			</article>
+		  </a>
+		</div>
+	  </div>
+
+
+       <!-- categories -->
+
+	   <div class="category-container">
+		<h1 class="category-title">Categories</h1>
+		<div class="scrollable-tabs-container">
+			<div class="left-arrow">
+				<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="w-6 h-6"
+				>
+					<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 19.5L8.25 12l7.5-7.5"
+					/>
+				</svg>
+			</div>
+	
+			<ul>
+				<li>
+					<a href="#" class="active">All</a>
+				</li>
+	
+				<li>
+					<a href="#">Music</a>
+				</li>
+	
+				<li>
+					<a href="#">Chess</a>
+				</li>
+	
+				<li>
+					<a href="#">Live</a>
+				</li>
+	
+				<li>
+					<a href="#">Gaming</a>
+				</li>
+	
+				<li>
+					<a href="#">Editing</a>
+				</li>
+	
+				<li>
+					<a href="#">Mixing consoles</a>
+				</li>
+	
+				<li>
+					<a href="#">Comedy</a>
+				</li>
+	
+				<li>
+					<a href="#">Computer Hardware</a>
+				</li>
+	
+				<li>
+					<a href="#">News</a>
+				</li>
+	
+				<li>
+					<a href="#">Computer Programming</a>
+				</li>
+	
+				<li>
+					<a href="#">Video Editing Software</a>
+				</li>
+	
+				<li>
+					<a href="#">Sports</a>
+				</li>
+			</ul>
+	
+			<div class="right-arrow active">
+				<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="w-6 h-6"
+				>
+					<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M8.25 4.5l7.5 7.5-7.5 7.5"
+					/>
+				</svg>
+			</div>
+		</div>
+	</div>
+
+	<!-- blog post slider -->
+
+
+	<div class="projcard-container" id="new-articles">
+		<h1>New Articles</h1>
+				<div class="projcard projcard-blue">
+					
+			<div class="projcard-innerbox">
+				
+				<img class="projcard-img" src="https://picsum.photos/800/600?image=1041" />
+				<div class="projcard-textbox">
+					<div class="projcard-title">KanaQuest: Mastering Hiragana</div>
+					<div class="projcard-subtitle">This explains the card in more detail</div>
+					<div class="projcard-bar"></div>
+					<div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					<div class="projcard-tagbox">
+						<span class="projcard-tag">HTML</span>
+						<span class="projcard-tag">CSS</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="projcard projcard-red">
+			<div class="projcard-innerbox">
+				<img class="projcard-img" src="https://picsum.photos/800/600?image=1080" />
+				<div class="projcard-textbox">
+					<div class="projcard-title">"PixelCraft: Harnessing Imagination</div>
+					<div class="projcard-subtitle">I don't really think that I need to explain anything here</div>
+					<div class="projcard-bar"></div>
+					<div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+					<div class="projcard-tagbox">
+						<span class="projcard-tag">PHP</span>
+						<span class="projcard-tag">SQL</span>
+						<span class="projcard-tag">Database</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="projcard projcard-green">
+			<div class="projcard-innerbox">
+				<img class="projcard-img" src="https://picsum.photos/800/600?image=1039" />
+				<div class="projcard-textbox">
+					<div class="projcard-title">Remote Rendezvous: Orchestrating Connections</div>
+					<div class="projcard-subtitle">You know what this is by now</div>
+					<div class="projcard-bar"></div>
+					<div class="projcard-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</div>
+					<div class="projcard-tagbox">
+						<span class="projcard-tag">Excel</span>
+						<span class="projcard-tag">VBA</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="projcard projcard-customcolor" style="--projcard-color: #F5AF41;">
+			<div class="projcard-innerbox">
+				<img class="projcard-img" src="https://picsum.photos/800/600?image=943" />
+				<div class="projcard-textbox">
+					<div class="projcard-title">Enhanced Productivity and Seamless Communication</div>
+					<div class="projcard-subtitle">That's the last one. Have a nice day!</div>
+					<div class="projcard-bar"></div>
+					<div class="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+					<div class="projcard-tagbox">
+						<span class="projcard-tag">iOS</span>
+						<span class="projcard-tag">Android</span>
+						<span class="projcard-tag">Cordova</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+
+	<!-- tags -->
+
+
+	<div id="content">
+		<h3>Tags!</h3>
+						<ul class="tags">
+		<li><a href="#">wordpress</a></li>
+		<li><a href="#">LifeStyle</a></li>
+		<li><a href="#">Technologie</a></li>
+		<li><a href="#">Food</a></li>
+		<li><a href="#">Travel</a></li>
+		
+	  </ul>
+	  </div>  
+
+	  <!-- SPORT CATEGORIES -->
+<div class="blog-content-wrapper">
+  
+	<h2>További kategóriáink</h2>
+	
+	<div class="blog-content">
+	  
+	  <div class="box">
+		<a onClick="ga('send', 'event', 'Home categories', 'Futópad, gyaloglópad', 'Click', '1');" href="https://www.decathlon.hu/C-426514-futopad-gyaloglopad" class="cat">
+		  <div class="overlay"></div>
+		  <img src="DD.jpg" alt="" />
+		  <p>TechTrend Insights</p>
+		</a>
+	  </div>
+	  
+	  <div class="box">
+		<a onClick="ga('send', 'event', 'Home categories', 'Szobakerékpár', 'Click', '1');" href="https://www.decathlon.hu/C-426516-szobakerekpar-es-indoor-biking" class="cat">
+		  <div class="overlay"></div>
+		  <img src="BB.jpg" alt="" />
+		  <p>Wanderlust Chronicles</p>
+		</a>
+	  </div>
+	  
+	  <div class="box">
+		<a onClick="ga('send', 'event', 'Home categories', 'Ping-pong asztal', 'Click', '1');" href="https://www.decathlon.hu/C-325790-pingpongasztalok-kiegeszitok" class="cat">
+		  <div class="overlay"></div>
+		  <img src="https://d1065et7n9hdcp.cloudfront.net/__imageservlet/file/pixldamproduct/pj/08f/815736679863960/8501776_005.jpg?w=-1&h=-1&p=1&z=0&ar=1&pn=0&bg=white" alt="" />
+		  <p>Mind Matters</p>
+		</a>
+	  </div>
+	  
+		  <div class="box">
+		<a onClick="ga('send', 'event', 'Home categories', 'Piltes', 'Click', '1');" href="https://www.decathlon.hu/C-426560-pilates-labda-eszkozokv" class="cat">
+		  <div class="overlay"></div>
+		  <img src="AA.jpg" alt="" />
+		  <p>"Gourmet Gazette</p>
+		</a>
+	  </div>
+	  
+		  <div class="box hide">
+		<a href="####" class="cat">
+		  <div class="overlay"></div>
+		  <img src="https://www.decathlon.hu/content/Openpage_slider/8501776_008_jpg%5B-1_-1xoxarxbg(white)%5D.jpg" alt="" />
+		  <p>Ping-pong asztal</p>
+		</a>
+	  </div>
+	  
+		  <div class="box hide">
+		<a href="####" class="cat">
+		  <div class="overlay"></div>
+		  <img src="https://www.decathlon.hu/content/Openpage_slider/outshock%20boxe%20corporate%5B8365142%2C8367921%2C8365167%5Dtci_scene_021_jpg%5B-1_-1xoxarxbg(white)%5D.jpg" alt="" />
+		  <p>Box felszerelés</p>
+		</a>
+	  </div>
+	  
+	  <div class="box hide">
+		<a href="####" class="cat">
+		  <div class="overlay"></div>
+		  <img src="https://www.decathlon.hu/content/Openpage_slider/cible%20ed%20310%5B8295139%5Dtci_scene_065_jpg%5B-1_-1xoxarxbg(white)%5D.jpg" alt="" />
+		  <p>Darts</p>
+		</a>
+	  </div>
+	  
+	   <div class="box hide">
+		<a href="####" class="cat">
+		  <div class="overlay"></div>
+		  <img src="https://www.decathlon.hu/content/Openpage_slider/kettle%20bell%5B8399332%5Dtci_scene001_jpg%5B-1_-1xoxarxbg(white)%5D.jpg" alt="" />
+		  <p>Kettlebell</p>
+		</a>
+	  </div>
+  
+	</div>
+	
+  </div>
+  
+  
+  
+  <!-- BLOG CONTENT -->
+  <div class="blog-content-wrapper-2" id="Sport Blog">
+	
+	<h2>Sport Blog
+	</h2>
+	
+	<ul class="cards">
+	<li class="cards__item">
+	  <a onClick="ga('send', 'event', 'Home blog', 'Sportoljatok együtt! - 5 tipp az egész családnak', 'Click', '1');" href="https://sportoljma.hu/magazin/miert-van-izomlazunk-az-izom-mukodese" class="card">
+		<div style="background-image: url('https://sportoljma.fra1.digitaloceanspaces.com/attachments/tollaslabda-5e7349141b357.jpeg');" class="card__image"><span class="badge">Edzésterv</span></div>
+		<div class="card__content">
+		  <div class="card__title">Sportoljatok együtt! - 5 tipp az egész családnak</div>
+		  <p class="card__text">Megérkezett a tavasz és bár még nem olyan az időjárás, amiben minden szabadidőnket a friss levegőn akarnánk tölteni, de a napsütés már mindenképpen a kertbe csalogat. Az egész napos kerti játékhoz még talán nincs elég meleg, de számos sportos játék közül válogathat ilyenkor is az egész család, hűvösebb idő esetén pedig beltéren sem kell lemondani a közös mozgásról!</p>
+		  <button class="btn btn--block card__btn">Elolvasom</button>
+		</div>
+	  </a>
+	</li>
+	<li class="cards__item">
+	  <a onClick="ga('send', 'event', 'Home blog', 'Súlyzós gyakorlatok otthoni edzéshez', 'Click', '1');" href="https://sportoljma.hu/magazin/miert-van-izomlazunk-az-izom-mukodese" class="card">
+		<div style="background-image: url('https://sportoljma.fra1.digitaloceanspaces.com/attachments/sulyzos-gyak-1-5e182a00300cf.jpeg');" class="card__image"><span class="badge">Edzésterv</span></div>
+		<div class="card__content">
+		  <div class="card__title">Súlyzós gyakorlatok otthoni edzéshez</div>
+		  <p class="card__text">Amikor megvettem az első 10 kilogrammos súlyszettemet, és boldogan száguldottam hazafelé, valamilyen különös eufória járt át. Amint hazaértem, már öltöztem is át valami kényelmesebbe, széttéptem a dobozt, kibontogattam a súlytárcsákat a műanyag tasakokból, és máris tanácstalanul álltam a szerzeményem fölött, miszerint milyen súllyal is kezdjem el a gyakorlatokat.v</p>
+		  <button class="btn btn--block card__btn">Elolvasom</button>
+		</div>
+	  </a>
+	</li>
+	<li class="cards__item">
+	  <a onClick="ga('send', 'event', 'Home blog', 'Reggeli jóga gyakorlatok 1. rész', 'Click', '1');" href="https://sportoljma.hu/magazin/miert-van-izomlazunk-az-izom-mukodese" class="card">
+		<div style="background-image: url('http://blog.decathlon.hu/wp-content/uploads/2017/11/j%C3%B3ga-decathlon-blog-1.png');" class="card__image"><span class="badge">Edzésterv</span></div>
+		<div class="card__content">
+		  <div class="card__title">Reggeli jóga gyakorlatok 1. rész</div>
+		  <p class="card__text">Az elkövetkező pár hétben egy rövid jóga gyakorlatsort mutatok meg nektek, amit ébredés utáni, reggeli mozgásként javasolok. Garantáltan felébreszti a szervezetet az utolsó kis sejtig! Mellékhatások: jó közérzet, élénkség, vidámság.</p>
+		  <button class="btn btn--block card__btn">Elolvasom</button>
+		</div>
+	  </a>
+	</li>
+	<li class="cards__item">
+	  <a onClick="ga('send', 'event', 'Home blog', 'Stabil fitneszlabda, gumiszalag – Edzésterv kezdőknek', 'Click', '1');" href="https://sportoljma.hu/magazin/miert-van-izomlazunk-az-izom-mukodese" class="card">
+		<div style="background-image: url(img1.jpg);" class="card__image"><span class="badge">Edzésterv</span></div>
+		<div class="card__content">
+		  <div class="card__title">Stabil fitneszlabda, gumiszalag – Edzésterv kezdőknek</div>
+		  <p class="card__text">Két nagyon sokoldalú fitnesz kiegészítő, a fitneszlabda és a könnyű ellenállást adó gumiszalag használatával összeállítottunk egy gyakorlatsort, mely akár kezdők számára is teljesíthető és az egész test átmozgatására alkalmas. Miért pont ez a két eszköz van a fókuszban? Milyen gyakorlatokat érdemes ezekkel a kiegészítőkkel végezni? A cikkben konkrét feladatsort, gyakorlatokat találtok.</p>
+		  <button class="btn btn--block card__btn">Elolvasom</button>
+		</div>
+	  </a>
+	</li>
+  </ul>
+	
+  </div>
+
+<!-- footer -->
+
+<footer>
+	<div class="f-item-con" id="Contact">
+		<div class="app-info">
+			<span class='app-name'>
+				<span class='app-initial'>L</span>AFASSO
+			</span>
+			<p>We provides you with <strong>Well organised</strong> and <strong>Best Blog website</strong> Website Designs.</p>
+		</div>
+		<div class="useful-links">
+			<div class="footer-title">Useful Links</div>
+			<ul>
+				<li>Courses</li>
+				<li>Sign In</li>
+				<li>About Us</li>
+				<li>Become an Affiliate</li>
+				<li>Advertise with Us</li>
+				<li>Terms and Conditions</li>
+			</ul>
+		</div>
+		<div class="help-sec">
+			<div class="footer-title">Help</div>
+			<ul>
+				<li>Help Me</li>
+				<li>Feedback</li>
+				<li>Report a Issue / Bug</li>
+			</ul>
+		</div>
+		<div class="g-i-t">
+			<div class="footer-title">Get in Touch</div>
+			<form action="/" method="post" class="space-y-2">
+				<input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Name' />
+				<input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email' />
+				<textarea type="text" name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
+					placeholder='Message...'></textarea>
+				<button type="submit" class='f-btn'>Submit</button>
+			</form>
+		</div>
+	</div>
+	<div class='cr-con'>Copyright &copy; 2024 | LAFASSO</div>
+</footer>
+
+<script src="jsfile.js"></script>
+</body>
+</html>
+	
